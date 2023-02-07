@@ -1,2 +1,4 @@
-package stats;public class Attributes {
+package stats;
+
+public class Attributes {
 }

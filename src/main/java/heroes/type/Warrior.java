@@ -1,2 +1,6 @@
-package heroes.type;public class Warrior {
+package heroes.type;
+
+import heroes.Hero;
+
+public class Warrior extends Hero {
 }

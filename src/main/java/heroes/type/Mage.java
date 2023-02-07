@@ -1,2 +1,6 @@
-package heroes.type;public class Mage {
+package heroes.type;
+
+import heroes.Hero;
+
+public class Mage extends Hero {
 }

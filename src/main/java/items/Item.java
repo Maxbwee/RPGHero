@@ -1,2 +1,4 @@
-package items;public class Item {
+package items;
+
+public class Item {
 }
