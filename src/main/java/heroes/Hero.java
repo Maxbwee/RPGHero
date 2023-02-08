@@ -19,6 +19,7 @@ public class Hero {
 
     // levelUpAttribes??
     public void levelUp() {
+
         level++;
     }
     public int getLevel() {
