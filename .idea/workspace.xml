@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added item class and created weapons class and weapon type. Still need to do armour and armour type. Changed Hero class. Need to update hero types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/armour/Armour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/armour/ArmourType.java" afterDir="false" />
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added Armour and Armour types.&#10;Added changes to Hero class and all Herotype classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/InvalidArmourException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/InvalidWeaponException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" afterDir="false" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,19 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/MBowen/IdeaProjects/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +70,8 @@
       <updated>1675778025757</updated>
       <workItem from="1675778026885" duration="1820000" />
       <workItem from="1675843500931" duration="9474000" />
-      <workItem from="1675863540528" duration="2053000" />
+      <workItem from="1675863540528" duration="2167000" />
+      <workItem from="1676013970908" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -85,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675854095294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Armour and Armour types.&#10;Added changes to Hero class and all Herotype classes">
+      <created>1675866340202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675866340202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a few attributes to Hero class" />
     <MESSAGE value="Added item class and created weapons class and weapon type. Still need to do armour and armour type. Changed Hero class. Need to update hero types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added item class and created weapons class and weapon type. Still need to do armour and armour type. Changed Hero class. Need to update hero types" />
+    <MESSAGE value="Added Armour and Armour types.&#10;Added changes to Hero class and all Herotype classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Armour and Armour types.&#10;Added changes to Hero class and all Herotype classes" />
   </component>
 </project>
