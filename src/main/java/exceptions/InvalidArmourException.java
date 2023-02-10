@@ -1,4 +1,7 @@
 package exceptions;
 
-public class InvalidArmourException {
+public class InvalidArmourException extends Exception{
+    public InvalidArmourException(String message) {
+        super(message);
+    }
 }
