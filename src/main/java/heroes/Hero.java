@@ -32,8 +32,6 @@ public abstract class Hero {
     }
 
 
-    // levelUpAttribes??
-
     public void levelUp() {
         level++;
     }
@@ -76,7 +74,7 @@ public abstract class Hero {
 
         for(Map.Entry<Slot,Item> set : equipment.entrySet()){
             if(set.getKey() == Slot.WEAPON || set.getValue() == null)
-                break;
+                continue;
             total.IncreaseHeroAttribute(((Armour) set.getValue()).getArmourAttribute());
         }
         return total;
