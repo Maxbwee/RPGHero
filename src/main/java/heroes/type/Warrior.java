@@ -8,7 +8,7 @@ import items.weapons.WeaponType;
 public class Warrior extends Hero {
     public Warrior(String name, int level) {
         super(name, level);
-        HeroAttribute levelAttributes = new HeroAttribute(5,2,1);
+        levelAttributes = new HeroAttribute(5,2,1);
         validWeaponTypes.add(WeaponType.AXE);
         validWeaponTypes.add(WeaponType.HAMMER);
         validWeaponTypes.add(WeaponType.SWORD);
@@ -20,6 +20,7 @@ public class Warrior extends Hero {
     @Override
     public void levelUp() {
         // Add something to level up warrior (3 , 2 , 1) for warrior
+        levelAttributes.IncreaseHeroAttribute(3,2,1);
         super.levelUp();
     }
 }

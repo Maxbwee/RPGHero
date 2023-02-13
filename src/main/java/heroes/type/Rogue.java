@@ -8,7 +8,7 @@ import items.weapons.WeaponType;
 public class Rogue extends Hero {
     public Rogue(String name, int level) {
         super(name, level);
-        HeroAttribute levelAttributes = new HeroAttribute(2,6,1);
+        levelAttributes = new HeroAttribute(2,6,1);
         validWeaponTypes.add(WeaponType.DAGGER);
         validWeaponTypes.add(WeaponType.SWORD);
         validArmourTypes.add(ArmourType.LEATHER);
@@ -18,6 +18,7 @@ public class Rogue extends Hero {
     @Override
     public void levelUp() {
         // Add something to leve up Rogue ( 1 , 4, 1) upgrade for Rogue
+        levelAttributes.IncreaseHeroAttribute(1,4,1);
         super.levelUp();
     }
 }

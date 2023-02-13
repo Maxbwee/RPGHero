@@ -17,7 +17,7 @@ public class Hero {
 
     public String name;
     public int level = 1;
-    public int levelAtrributes;
+    public HeroAttribute levelAttributes;
 
     private Map<Slot, Item> equipment;
 
@@ -33,6 +33,7 @@ public class Hero {
 
 
     // levelUpAttribes??
+
     public void levelUp() {
         level++;
     }
@@ -59,6 +60,7 @@ public class Hero {
     // Equipping armour on the hero
     // if the level is too high or armour type is wrong
     // throws custom error
+
 
 
 

@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added specific armour and weapon types to subclasses.&#10;Created InvalidException files but not yet implemented&#10;Added empty equipment initialization to hero class">
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added methods for equipping armour and weapons with custom exception error messages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/InvalidArmourException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/InvalidArmourException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/InvalidWeaponException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/InvalidWeaponException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/HeroAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/HeroAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Ranger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Rogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +56,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,7 +73,8 @@
       <workItem from="1675778026885" duration="1820000" />
       <workItem from="1675843500931" duration="9474000" />
       <workItem from="1675863540528" duration="2167000" />
-      <workItem from="1676013970908" duration="6921000" />
+      <workItem from="1676013970908" duration="6989000" />
+      <workItem from="1676273150772" duration="6234000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -97,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676034932108</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added methods for equipping armour and weapons with custom exception error messages">
+      <created>1676042580923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676042580923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +122,7 @@
     <MESSAGE value="Added item class and created weapons class and weapon type. Still need to do armour and armour type. Changed Hero class. Need to update hero types" />
     <MESSAGE value="Added Armour and Armour types.&#10;Added changes to Hero class and all Herotype classes" />
     <MESSAGE value="Added specific armour and weapon types to subclasses.&#10;Created InvalidException files but not yet implemented&#10;Added empty equipment initialization to hero class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added specific armour and weapon types to subclasses.&#10;Created InvalidException files but not yet implemented&#10;Added empty equipment initialization to hero class" />
+    <MESSAGE value="Added methods for equipping armour and weapons with custom exception error messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added methods for equipping armour and weapons with custom exception error messages" />
   </component>
 </project>
