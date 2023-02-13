@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Hero {
+public abstract class Hero {
 
     public String name;
     public int level = 1;
@@ -44,6 +44,7 @@ public class Hero {
         equipment.put(Slot.BODY, null);
         equipment.put(Slot.LEGS, null);
         equipment.put(Slot.WEAPON,null);
+
     }
 
     // Equipping a weapon on the hero
@@ -61,10 +62,6 @@ public class Hero {
     // if the level is too high or armour type is wrong
     // throws custom error
 
-
-
-
-
     public void equip(Armour armour) throws InvalidArmourException {
         if(armour.getRequiredLevel() > level)
             throw new InvalidArmourException("Armour level too high. Level up first!");
@@ -73,6 +70,18 @@ public class Hero {
         equipment.put(armour.getSlot(), armour);
     }
 
+    public HeroAttribute totalAttributes() {
+
+        HeroAttribute total = levelAttributes;
+
+        for(Map.Entry<Slot,Item> set : equipment.entrySet()){
+            if(set.getKey() == Slot.WEAPON || set.getValue() == null)
+            break;
+
+        }
+        return total;
+
+    }
 
 
 

@@ -16,6 +16,14 @@ public class HeroAttribute {
         this.dexterity += dexterity;
         this.intelligence += intelligence;
     }
+    public void IncreaseHeroAttribute(HeroAttribute attributes){
+
+    }
+   // public void IncreaseHeroAttribute(HeroAttribute armourAttribute) {
+   //     this.strength += strength;
+   //     this.dexterity += dexterity;
+   //     this.intelligence += intelligence;
+    //}
     public int getStrength() {
         return strength;
     }
@@ -48,4 +56,6 @@ public class HeroAttribute {
                 ", intelligence=" + intelligence +
                 "}";
     }
+
+
 }

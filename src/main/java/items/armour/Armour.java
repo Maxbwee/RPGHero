@@ -9,13 +9,14 @@ public class Armour extends Item {
     private HeroAttribute armourAttribute;
     private ArmourType armourType;
 
-    public Armour(String itemName, Slot slot, int requiredLevel, HeroAttribute armorAttribute, ArmourType armourType) {
+    public Armour(String itemName, Slot slot, int requiredLevel, HeroAttribute armourAttribute, ArmourType armourType) {
         super(itemName, slot, requiredLevel);
-        this.armourAttribute = armorAttribute;
+        this.armourAttribute = armourAttribute;
         this.armourType = armourType;
     }
 
-    public HeroAttribute getArmorAttribute() {
+    public HeroAttribute getArmourAttribute() {
+
         return armourAttribute;
     }
 
