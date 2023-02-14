@@ -5,14 +5,14 @@ import heroes.HeroAttribute;
 import items.armour.ArmourType;
 import items.weapons.WeaponType;
 
+import java.util.List;
+
 public class Rogue extends Hero {
     public Rogue(String name, int level) {
         super(name, level);
         levelAttributes = new HeroAttribute(2,6,1);
-        validWeaponTypes.add(WeaponType.DAGGER);
-        validWeaponTypes.add(WeaponType.SWORD);
-        validArmourTypes.add(ArmourType.LEATHER);
-        validArmourTypes.add(ArmourType.MAIL);
+        validWeaponTypes = List.of(WeaponType.DAGGER, WeaponType.SWORD);
+        validArmourTypes = List.of(ArmourType.LEATHER, ArmourType.MAIL);
     }
 
     @Override

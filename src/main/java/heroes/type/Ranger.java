@@ -5,13 +5,14 @@ import heroes.HeroAttribute;
 import items.armour.ArmourType;
 import items.weapons.WeaponType;
 
+import java.util.List;
+
 public class Ranger extends Hero {
     public Ranger(String name, int level) {
         super(name, level);
         levelAttributes = new HeroAttribute(1,7,1);
-        validWeaponTypes.add(WeaponType.BOW);
-        validArmourTypes.add(ArmourType.LEATHER);
-        validArmourTypes.add(ArmourType.MAIL);
+        validWeaponTypes = List.of(WeaponType.BOW);
+        validArmourTypes = List.of(ArmourType.MAIL, ArmourType.LEATHER);
     }
 
 

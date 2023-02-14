@@ -31,25 +31,21 @@ public class HeroAttribute {
     public int getStrength() {
         return strength;
     }
-
-    public void setStrength(int strength) {
-        this.strength = strength;
-    }
-
     public int getDexterity() {
         return dexterity;
     }
-
-    public void setDexterity(int dexterity) {
-        this.dexterity = dexterity;
-    }
-
     public int getIntelligence() {
         return intelligence;
     }
 
-    public void setIntelligence(int intelligence) {
-        this.intelligence = intelligence;
+
+    // Allows me to compare two objects for the tests
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        HeroAttribute that = (HeroAttribute) o;
+        return strength == that.strength && dexterity == that.dexterity && intelligence == that.intelligence;
     }
 
     @Override

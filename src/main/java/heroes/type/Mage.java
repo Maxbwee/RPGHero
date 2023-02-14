@@ -5,15 +5,17 @@ import heroes.HeroAttribute;
 import items.armour.ArmourType;
 import items.weapons.WeaponType;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Mage extends Hero{
 
 
     public Mage(String name, int level) {
         super(name, level);
         levelAttributes = new HeroAttribute(1,1,8);
-        validWeaponTypes.add(WeaponType.WAND);
-        validWeaponTypes.add(WeaponType.STAFF);
-        validArmourTypes.add(ArmourType.CLOTH);
+        validWeaponTypes = List.of(WeaponType.WAND, WeaponType.STAFF);
+        validArmourTypes = List.of(ArmourType.CLOTH);
     }
 
     @Override

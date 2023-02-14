@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added method of getting total attributes">
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Fixed add attributes method">
+      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/type/MageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/type/RangerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/type/RogueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/type/WarriorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/HeroAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/HeroAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Ranger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Rogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +28,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,6 +57,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/MBowen/IdeaProjects/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +70,101 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="heroes.type" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WarriorTest">
+    <configuration name="MageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heroes.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heroes.type" />
+      <option name="MAIN_CLASS_NAME" value="heroes.type.MageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MageTest.heroHasCorrectAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heroes.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heroes.type" />
+      <option name="MAIN_CLASS_NAME" value="heroes.type.MageTest" />
+      <option name="METHOD_NAME" value="heroHasCorrectAttributes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RangerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heroes.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heroes.type" />
+      <option name="MAIN_CLASS_NAME" value="heroes.type.RangerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RogueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heroes.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heroes.type" />
+      <option name="MAIN_CLASS_NAME" value="heroes.type.RogueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarriorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heroes.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heroes.type" />
+      <option name="MAIN_CLASS_NAME" value="heroes.type.WarriorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WarriorTest" />
+        <item itemvalue="JUnit.RogueTest" />
+        <item itemvalue="JUnit.RangerTest" />
+        <item itemvalue="JUnit.MageTest" />
+        <item itemvalue="JUnit.MageTest.heroHasCorrectAttributes" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +177,8 @@
       <workItem from="1675843500931" duration="9474000" />
       <workItem from="1675863540528" duration="2167000" />
       <workItem from="1676013970908" duration="6989000" />
-      <workItem from="1676273150772" duration="12599000" />
+      <workItem from="1676273150772" duration="12962000" />
+      <workItem from="1676359324696" duration="10711000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -127,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676298012346</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed add attributes method">
+      <created>1676298288451</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676298288451</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +269,7 @@
     <MESSAGE value="Added levelup Attributes to each subclass" />
     <MESSAGE value="Added method of getting total attributes. Almost working. Need to increase the total still" />
     <MESSAGE value="Added method of getting total attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added method of getting total attributes" />
+    <MESSAGE value="Fixed add attributes method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed add attributes method" />
   </component>
 </project>
