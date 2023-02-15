@@ -13,13 +13,13 @@ class ArmourTest {
     @BeforeEach
     void setUp() {
         armourPlate = new Armour("Common plate Chest", Slot.BODY,1,
-                new HeroAttribute(1,1,1), ArmourType.PLATE
+                new HeroAttribute(2,1,0), ArmourType.PLATE
         );
     }
 
     @Test
     void armourGetExtraAttributes() {
-        HeroAttribute expected = new HeroAttribute(1,1,1);
+        HeroAttribute expected = new HeroAttribute(2,1,0);
         HeroAttribute actual = armourPlate.getArmourAttribute();
 
         assertEquals(expected,actual);

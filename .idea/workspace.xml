@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added first tests to each subclass. Correct attributes and level up attributes works">
-      <change afterPath="$PROJECT_DIR$/src/test/java/items/armour/ArmourTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/items/weapons/WeaponTest.java" afterDir="false" />
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type">
+      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/HeroEquipmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/items/armour/ArmourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/items/armour/ArmourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,36 +42,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/MBowen/IdeaProjects/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MBowen/IdeaProjects/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="heroes" />
       <recent name="items.armour" />
       <recent name="items.weapons" />
       <recent name="heroes.type" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArmourTest">
+  <component name="RunManager" selected="JUnit.HeroEquipmentTest">
     <configuration name="ArmourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
@@ -87,63 +88,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArmourTest.getArmourType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroEquipmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="items.armour.*" />
+          <option name="PATTERN" value="heroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="items.armour" />
-      <option name="MAIN_CLASS_NAME" value="items.armour.ArmourTest" />
-      <option name="METHOD_NAME" value="getArmourType" />
+      <option name="PACKAGE_NAME" value="heroes" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroEquipmentTest.heroArmourEquipTestArmourTooHighLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heroes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heroes" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
+      <option name="METHOD_NAME" value="heroArmourEquipTestArmourTooHighLevel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RogueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroEquipmentTest.heroArmourEquipTestArmourWrongType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heroes.type.*" />
+          <option name="PATTERN" value="heroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="heroes.type" />
-      <option name="MAIN_CLASS_NAME" value="heroes.type.RogueTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="heroes" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
+      <option name="METHOD_NAME" value="heroArmourEquipTestArmourWrongType" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarriorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroEquipmentTest.heroWeaponEquipTestValidWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heroes.type.*" />
+          <option name="PATTERN" value="heroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="heroes.type" />
-      <option name="MAIN_CLASS_NAME" value="heroes.type.WarriorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeaponTest.weaponGetWeaponType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RPGHero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="items.weapons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="items.weapons" />
-      <option name="MAIN_CLASS_NAME" value="items.weapons.WeaponTest" />
-      <option name="METHOD_NAME" value="weaponGetWeaponType" />
+      <option name="PACKAGE_NAME" value="heroes" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
+      <option name="METHOD_NAME" value="heroWeaponEquipTestValidWeapon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeroEquipmentTest" />
+        <item itemvalue="JUnit.HeroEquipmentTest.heroArmourEquipTestArmourWrongType" />
+        <item itemvalue="JUnit.HeroEquipmentTest.heroArmourEquipTestArmourTooHighLevel" />
+        <item itemvalue="JUnit.HeroEquipmentTest.heroWeaponEquipTestValidWeapon" />
         <item itemvalue="JUnit.ArmourTest" />
-        <item itemvalue="JUnit.WeaponTest.weaponGetWeaponType" />
-        <item itemvalue="JUnit.ArmourTest.getArmourType" />
-        <item itemvalue="JUnit.WarriorTest" />
-        <item itemvalue="JUnit.RogueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,8 @@
       <workItem from="1675863540528" duration="2167000" />
       <workItem from="1676013970908" duration="6989000" />
       <workItem from="1676273150772" duration="12962000" />
-      <workItem from="1676359324696" duration="15197000" />
+      <workItem from="1676359324696" duration="15390000" />
+      <workItem from="1676447402281" duration="5169000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -244,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676380068907</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type">
+      <created>1676385119081</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676385119081</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +282,7 @@
     <MESSAGE value="Added method of getting total attributes" />
     <MESSAGE value="Fixed add attributes method" />
     <MESSAGE value="Added first tests to each subclass. Correct attributes and level up attributes works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first tests to each subclass. Correct attributes and level up attributes works" />
+    <MESSAGE value="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type" />
   </component>
 </project>
