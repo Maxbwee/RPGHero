@@ -22,4 +22,8 @@ public class Warrior extends Hero {
         levelAttributes.IncreaseHeroAttribute(3,2,1);
         super.levelUp();
     }
+    @Override
+    public int increaseDamageByAttribute(HeroAttribute totalAttributes){
+        return totalAttributes.getStrength();
+    }
 }

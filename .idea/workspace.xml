@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type">
-      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/HeroEquipmentTest.java" afterDir="false" />
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Completed equip invalid armour and weapon tests. &#10;ToDo: Hero getDamage method for next tests.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/HeroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/items/armour/ArmourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/items/armour/ArmourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Ranger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Rogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/type/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/type/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,23 +76,23 @@
       <recent name="heroes.type" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeroEquipmentTest">
-    <configuration name="ArmourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HeroTest">
+    <configuration name="HeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="items.armour.*" />
+          <option name="PATTERN" value="heroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="items.armour" />
-      <option name="MAIN_CLASS_NAME" value="items.armour.ArmourTest" />
+      <option name="PACKAGE_NAME" value="heroes" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroEquipmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroTest.getCorrectHeroDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
@@ -97,29 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroEquipmentTest.heroArmourEquipTestArmourTooHighLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RPGHero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heroes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
-      <option name="METHOD_NAME" value="heroArmourEquipTestArmourTooHighLevel" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
+      <option name="METHOD_NAME" value="getCorrectHeroDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroEquipmentTest.heroArmourEquipTestArmourWrongType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroTest.getCorrectHeroLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
-      <option name="METHOD_NAME" value="heroArmourEquipTestArmourWrongType" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
+      <option name="METHOD_NAME" value="getCorrectHeroLevel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroEquipmentTest.heroWeaponEquipTestValidWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroTest.getCorrectHeroName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +133,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
-      <option name="METHOD_NAME" value="heroWeaponEquipTestValidWeapon" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
+      <option name="METHOD_NAME" value="getCorrectHeroName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroTest.levelUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heroes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heroes" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
+      <option name="METHOD_NAME" value="levelUp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HeroEquipmentTest" />
-        <item itemvalue="JUnit.HeroEquipmentTest.heroArmourEquipTestArmourWrongType" />
-        <item itemvalue="JUnit.HeroEquipmentTest.heroArmourEquipTestArmourTooHighLevel" />
-        <item itemvalue="JUnit.HeroEquipmentTest.heroWeaponEquipTestValidWeapon" />
-        <item itemvalue="JUnit.ArmourTest" />
+        <item itemvalue="JUnit.HeroTest" />
+        <item itemvalue="JUnit.HeroTest.getCorrectHeroDamage" />
+        <item itemvalue="JUnit.HeroTest.levelUp" />
+        <item itemvalue="JUnit.HeroTest.getCorrectHeroLevel" />
+        <item itemvalue="JUnit.HeroTest.getCorrectHeroName" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +180,7 @@
       <workItem from="1676013970908" duration="6989000" />
       <workItem from="1676273150772" duration="12962000" />
       <workItem from="1676359324696" duration="15390000" />
-      <workItem from="1676447402281" duration="5169000" />
+      <workItem from="1676447402281" duration="8369000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -254,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676385119081</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Completed equip invalid armour and weapon tests. &#10;ToDo: Hero getDamage method for next tests.">
+      <created>1676452826595</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676452826595</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +295,7 @@
     <MESSAGE value="Fixed add attributes method" />
     <MESSAGE value="Added first tests to each subclass. Correct attributes and level up attributes works" />
     <MESSAGE value="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type" />
+    <MESSAGE value="Completed equip invalid armour and weapon tests. &#10;ToDo: Hero getDamage method for next tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed equip invalid armour and weapon tests. &#10;ToDo: Hero getDamage method for next tests." />
   </component>
 </project>

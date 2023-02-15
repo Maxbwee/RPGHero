@@ -5,7 +5,6 @@ import heroes.HeroAttribute;
 import items.armour.ArmourType;
 import items.weapons.WeaponType;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Mage extends Hero{
@@ -24,6 +23,10 @@ public class Mage extends Hero{
         // Add something how to levelup attributes (1, 1, 5) for mage
         levelAttributes.IncreaseHeroAttribute(1,1,5);
         super.levelUp();
+    }
+    @Override
+    public int increaseDamageByAttribute(HeroAttribute totalAttributes) {
+        return totalAttributes.getIntelligence();
     }
 
 

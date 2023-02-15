@@ -9,7 +9,6 @@ import items.armour.ArmourType;
 import items.weapons.Weapon;
 import items.weapons.WeaponType;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -81,8 +80,19 @@ public abstract class Hero {
         return total;
     }
 
+    public double getDamage() {
+        double weaponDamage = 1;
 
+        if(equipment.get(Slot.WEAPON) == null){
+            weaponDamage = weaponDamage * (1 + increaseDamageByAttribute(totalAttributes())/100d);
+        } else if(equipment.get(Slot.WEAPON) != null) {
+            weaponDamage = ((Weapon)equipment.get(Slot.WEAPON)).getWeaponDamage();
+        }
 
+        return weaponDamage;
+    }
+
+    public abstract int increaseDamageByAttribute(HeroAttribute totalAttributes);
     public int getLevel() {
 
         return level;
@@ -102,4 +112,6 @@ public abstract class Hero {
 
         this.name = name;
     }
+
+
 }

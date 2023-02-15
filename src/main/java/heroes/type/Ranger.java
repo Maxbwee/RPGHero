@@ -22,5 +22,9 @@ public class Ranger extends Hero {
         levelAttributes.IncreaseHeroAttribute(1,5,1);
         super.levelUp();
     }
+    @Override
+    public int increaseDamageByAttribute(HeroAttribute totalAttributes) {
+        return totalAttributes.getDexterity();
+    }
 
 }

@@ -21,4 +21,8 @@ public class Rogue extends Hero {
         levelAttributes.IncreaseHeroAttribute(1,4,1);
         super.levelUp();
     }
+    @Override
+    public int increaseDamageByAttribute(HeroAttribute totalAttributes){
+        return totalAttributes.getDexterity();
+    }
 }
