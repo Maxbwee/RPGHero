@@ -40,6 +40,14 @@ class HeroTest {
     }
 
     @Test
+    void totalAttributes(){
+        HeroAttribute expected = new HeroAttribute(5,2,1);
+        HeroAttribute actual = hero.totalAttributes();
+
+        assertEquals(expected,actual);
+    }
+
+    @Test
     void getCorrectHeroDamage() {
         Double expectedDamage = (1d + 5d / 100d);
         Double actualDamage = hero.getDamage();
@@ -49,4 +57,12 @@ class HeroTest {
     }
 
 
+    @Test
+    void display() {
+        String display = hero.display();
+
+        assertTrue(display.contains("Name: Willy Warrior"));
+        assertTrue(display.contains("Level: 1"));
+
+    }
 }

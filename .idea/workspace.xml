@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added tests for testing individual Hero Attributes and increasing hero attributes.&#10;Deleted unnecessary code from HeroAttribute java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/items/ItemTest.java" afterDir="false" />
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added tests for Item&#10;&#10;Item test checks for item name, item slot and required item level">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/heroes/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/heroes/HeroTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +66,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="items" />
       <recent name="heroes" />
+      <recent name="items" />
       <recent name="items.armour" />
       <recent name="items.weapons" />
       <recent name="heroes.type" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ItemTest">
+  <component name="RunManager" selected="JUnit.HeroTest.totalAttributes">
     <configuration name="HeroAttributeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
@@ -88,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroAttributeTest.increaseDexterityAttributeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroTest.display" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroAttributeTest" />
-      <option name="METHOD_NAME" value="increaseDexterityAttributeTest" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
+      <option name="METHOD_NAME" value="display" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroAttributeTest.increaseStrengthAttributeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroTest.totalAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +114,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroAttributeTest" />
-      <option name="METHOD_NAME" value="increaseStrengthAttributeTest" />
+      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
+      <option name="METHOD_NAME" value="totalAttributes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeroTest.totalAttributes" />
+        <item itemvalue="JUnit.HeroTest.display" />
         <item itemvalue="JUnit.ItemTest" />
         <item itemvalue="JUnit.ItemTest.getItemName" />
         <item itemvalue="JUnit.HeroAttributeTest" />
-        <item itemvalue="JUnit.HeroAttributeTest.increaseDexterityAttributeTest" />
-        <item itemvalue="JUnit.HeroAttributeTest.increaseStrengthAttributeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,7 @@
       <workItem from="1676013970908" duration="6989000" />
       <workItem from="1676273150772" duration="12962000" />
       <workItem from="1676359324696" duration="15390000" />
-      <workItem from="1676447402281" duration="11466000" />
+      <workItem from="1676447402281" duration="13951000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676464017932</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added tests for Item&#10;&#10;Item test checks for item name, item slot and required item level">
+      <created>1676466260231</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676466260231</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +315,7 @@
     <MESSAGE value="Completed equip invalid armour and weapon tests. &#10;ToDo: Hero getDamage method for next tests." />
     <MESSAGE value="Added hero getDamage and damaging attributes to each subclass based on their primary attribute.&#10;Added HeroTest to see if a hero is initialized correctly" />
     <MESSAGE value="Added tests for testing individual Hero Attributes and increasing hero attributes.&#10;Deleted unnecessary code from HeroAttribute java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests for testing individual Hero Attributes and increasing hero attributes.&#10;Deleted unnecessary code from HeroAttribute java" />
+    <MESSAGE value="Added tests for Item&#10;&#10;Item test checks for item name, item slot and required item level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests for Item&#10;&#10;Item test checks for item name, item slot and required item level" />
   </component>
 </project>
