@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added hero getDamage and damaging attributes to each subclass based on their primary attribute.&#10;Added HeroTest to see if a hero is initialized correctly">
-      <change afterPath="$PROJECT_DIR$/src/test/java/heroes/HeroAttributeTest.java" afterDir="false" />
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added tests for testing individual Hero Attributes and increasing hero attributes.&#10;Deleted unnecessary code from HeroAttribute java">
+      <change afterPath="$PROJECT_DIR$/src/test/java/items/ItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/heroes/HeroAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroes/HeroAttribute.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +65,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="items" />
       <recent name="heroes" />
       <recent name="items.armour" />
       <recent name="items.weapons" />
       <recent name="heroes.type" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeroAttributeTest">
+  <component name="RunManager" selected="JUnit.ItemTest">
     <configuration name="HeroAttributeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
@@ -84,22 +84,6 @@
       <option name="PACKAGE_NAME" value="heroes" />
       <option name="MAIN_CLASS_NAME" value="heroes.HeroAttributeTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroAttributeTest.getStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RPGHero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heroes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroAttributeTest" />
-      <option name="METHOD_NAME" value="getStrength" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,28 +120,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heroes.*" />
+          <option name="PATTERN" value="items.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
+      <option name="PACKAGE_NAME" value="items" />
+      <option name="MAIN_CLASS_NAME" value="items.ItemTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemTest.getItemName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="items.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="items" />
+      <option name="MAIN_CLASS_NAME" value="items.ItemTest" />
+      <option name="METHOD_NAME" value="getItemName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemTest" />
+        <item itemvalue="JUnit.ItemTest.getItemName" />
         <item itemvalue="JUnit.HeroAttributeTest" />
         <item itemvalue="JUnit.HeroAttributeTest.increaseDexterityAttributeTest" />
         <item itemvalue="JUnit.HeroAttributeTest.increaseStrengthAttributeTest" />
-        <item itemvalue="JUnit.HeroAttributeTest.getStrength" />
-        <item itemvalue="JUnit.HeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1676013970908" duration="6989000" />
       <workItem from="1676273150772" duration="12962000" />
       <workItem from="1676359324696" duration="15390000" />
-      <workItem from="1676447402281" duration="10424000" />
+      <workItem from="1676447402281" duration="11466000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676462018934</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added tests for testing individual Hero Attributes and increasing hero attributes.&#10;Deleted unnecessary code from HeroAttribute java">
+      <created>1676464017932</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676464017932</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +306,7 @@
     <MESSAGE value="Added tests for armour and weapon.&#10;Tests will get type and damage of weapon &#10;And Armour attributes and armour type" />
     <MESSAGE value="Completed equip invalid armour and weapon tests. &#10;ToDo: Hero getDamage method for next tests." />
     <MESSAGE value="Added hero getDamage and damaging attributes to each subclass based on their primary attribute.&#10;Added HeroTest to see if a hero is initialized correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hero getDamage and damaging attributes to each subclass based on their primary attribute.&#10;Added HeroTest to see if a hero is initialized correctly" />
+    <MESSAGE value="Added tests for testing individual Hero Attributes and increasing hero attributes.&#10;Deleted unnecessary code from HeroAttribute java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests for testing individual Hero Attributes and increasing hero attributes.&#10;Deleted unnecessary code from HeroAttribute java" />
   </component>
 </project>
