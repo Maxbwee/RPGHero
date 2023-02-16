@@ -86,7 +86,7 @@ public abstract class Hero {
         if(equipment.get(Slot.WEAPON) == null){
             weaponDamage = weaponDamage * (1 + increaseDamageByAttribute(totalAttributes())/100d);
         } else if(equipment.get(Slot.WEAPON) != null) {
-            weaponDamage = ((Weapon)equipment.get(Slot.WEAPON)).getWeaponDamage();
+            weaponDamage = ((Weapon)equipment.get(Slot.WEAPON)).getWeaponDamage() * (1 + increaseDamageByAttribute(totalAttributes())/100d);
         }
 
         return weaponDamage;
