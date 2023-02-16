@@ -6,7 +6,17 @@ This project was created for the Norofff backend course. The project took roughl
 
 ## Functionality
 
-The task was to create a class based RPG system where a hero can be created and given a subclass. There are four classes to choose from.
+The task was to create a class based RPG system where a hero can be created and given a subclass. There are four classes to choose from:
+
+Mage,
+
+Rogue,
+
+Warrior,
+
+Ranger.
+
+Heroes can be leveled up and they gain level attributes accordingly (Strength, Dexterity and Intelligence)
 
 Weapons and armour can be created and equipped on heroes. Some heroes have limitations to what kind of armour and weapons they can equip. 
 
