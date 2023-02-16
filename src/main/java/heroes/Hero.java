@@ -25,6 +25,7 @@ public abstract class Hero {
     protected List<ArmourType> validArmourTypes; // Given in each class type
 
 
+    // Used to create a new Hero with an empty equipment array
     public Hero(String name,int level){
         this.name = name;
         this.level = level;
@@ -68,6 +69,8 @@ public abstract class Hero {
         equipment.put(armour.getSlot(), armour);
     }
 
+    // Gets the total attributes on a hero (Strength, Dexterity, Intelligence)
+    // Checks Armour equipped and adds the attributes of the armour to the total attributes
     public HeroAttribute totalAttributes() {
 
         HeroAttribute total = levelAttributes;
@@ -80,6 +83,11 @@ public abstract class Hero {
         return total;
     }
 
+
+    // Gets the damage that a hero deals based on if the Hero
+    // has a weapon equipped or not
+    // If the Hero has a weapon equipped the stats are increased accordingly
+    // Otherwise base weapon damage is used
     public double getDamage() {
         double weaponDamage = 1;
 
@@ -92,6 +100,10 @@ public abstract class Hero {
         return weaponDamage;
     }
 
+    // This is used to display the Hero.
+    // Uses the totalAttributes method to gain access to the Hero's attributes
+    // Test for this and weapon damage and equipment attributes can be found in
+    // HeroTest.java file
     public String display() {
         HeroAttribute total = totalAttributes();
         return "Name: " + name + "\n" +
@@ -108,20 +120,12 @@ public abstract class Hero {
         return level;
     }
 
-    public void setLevel(int level) {
-
-        this.level = level;
-    }
 
     public String getName() {
 
         return name;
     }
 
-    public void setName(String name) {
-
-        this.name = name;
-    }
 
 
 }

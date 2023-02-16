@@ -18,15 +18,9 @@ public class Weapon extends Item {
         return weaponDamage;
     }
 
-    public void setWeaponDamage(double weaponDamage) {
-        this.weaponDamage = weaponDamage;
-    }
 
     public WeaponType getWeaponType() {
         return weaponType;
     }
 
-    public void setWeaponType(WeaponType weaponType) {
-        this.weaponType = weaponType;
-    }
 }

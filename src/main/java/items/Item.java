@@ -5,6 +5,8 @@ public class Item {
     private int requiredLevel;
     private Slot slot;
 
+    // This is used as a base for the weapons and armour
+    // Weapon and armour classes extend Item
     public Item(String itemName, Slot slot, int requiredLevel) {
         this.itemName = itemName;
         this.slot = slot;

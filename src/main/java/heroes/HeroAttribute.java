@@ -11,11 +11,14 @@ public class HeroAttribute {
         this.intelligence = intelligence;
     }
 
+    // This used to upgrade hero stats when a hero levels up
     public void IncreaseHeroAttribute(int strength, int dexterity, int intelligence) {
         this.strength += strength;
         this.dexterity += dexterity;
         this.intelligence += intelligence;
     }
+
+    // This is used for upgrading Hero stats after equipping armour
     public void IncreaseHeroAttribute(HeroAttribute attributes){
         this.strength += attributes.strength;
         this.dexterity += attributes.dexterity;

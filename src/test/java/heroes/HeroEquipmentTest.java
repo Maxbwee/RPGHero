@@ -17,8 +17,8 @@ class HeroEquipmentTest {
 
 
     Ranger randyRanger;
-    Weapon validBow, invalidBow;
-    Armour validCloth, invalidLeather;
+    Weapon  invalidBow;
+    Armour  invalidLeather;
     @BeforeEach
     void setUp() {
         randyRanger = new Ranger("Randy Ranger", 1);
