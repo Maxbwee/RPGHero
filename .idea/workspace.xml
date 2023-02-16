@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added comments and removed redundant lines of code">
+    <list default="true" id="600abf13-32d9-446b-9296-77f68353ecda" name="Changes" comment="Added workflow yml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflow/yml.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/yml.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,15 @@
       <recent name="heroes.type" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeroEquipmentTest.heroWeaponEquipTestInvalidWeaponTooHighLevel">
+  <component name="RunManager" selected="JUnit.All in RPGHero">
+    <configuration name="All in RPGHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPGHero" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArmourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPGHero" />
       <extension name="coverage">
@@ -100,21 +107,6 @@
       <option name="MAIN_CLASS_NAME" value="heroes.HeroEquipmentTest" />
       <option name="METHOD_NAME" value="heroWeaponEquipTestInvalidWeaponTooHighLevel" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RPGHero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heroes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="heroes" />
-      <option name="MAIN_CLASS_NAME" value="heroes.HeroTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in RPGHero" />
         <item itemvalue="JUnit.HeroEquipmentTest.heroWeaponEquipTestInvalidWeaponTooHighLevel" />
         <item itemvalue="JUnit.ItemTest" />
         <item itemvalue="JUnit.WeaponTest" />
         <item itemvalue="JUnit.ArmourTest" />
-        <item itemvalue="JUnit.HeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +166,7 @@
       <workItem from="1676273150772" duration="12962000" />
       <workItem from="1676359324696" duration="15390000" />
       <workItem from="1676447402281" duration="14217000" />
-      <workItem from="1676532625815" duration="8161000" />
+      <workItem from="1676532625815" duration="9730000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few attributes to Hero class">
       <created>1675781227773</created>
@@ -309,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676550993167</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added workflow yml file">
+      <created>1676551510517</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676551510517</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +345,13 @@
     <MESSAGE value="Added test for calculating total attributes with armour equipped and tests with a weapon equipped" />
     <MESSAGE value="Added test for displaying Warrior" />
     <MESSAGE value="Added comments and removed redundant lines of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments and removed redundant lines of code" />
+    <MESSAGE value="Added workflow yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added workflow yml file" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RPGHero$HeroEquipmentTest_heroWeaponEquipTestInvalidWeaponTooHighLevel.ic" NAME="HeroEquipmentTest.heroWeaponEquipTestInvalidWeaponTooHighLevel Coverage Results" MODIFIED="1676552794681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>heroes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/RPGHero$All_in_RPGHero.ic" NAME="All in RPGHero Coverage Results" MODIFIED="1676552814181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
