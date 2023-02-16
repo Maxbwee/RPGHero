@@ -160,11 +160,15 @@ class HeroTest {
 
 
     @Test
-    void display() {
+    void displayTestWarrior() {
         String display = hero.display();
+
 
         assertTrue(display.contains("Name: Willy Warrior"));
         assertTrue(display.contains("Level: 1"));
-
+        assertTrue(display.contains("Total Strength: 5" ));
+        assertTrue(display.contains("Total Dexterity: 2"));
+        assertTrue(display.contains("Total Intelligence: 1"));
+        assertTrue(display.contains("Damage 1.05"));
     }
 }

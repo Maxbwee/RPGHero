@@ -98,8 +98,8 @@ public abstract class Hero {
                 "Level: " + level +"\n" +
                 "Total Strength: " + total.getStrength() + "\n" +
                 "Total Dexterity: " + total.getDexterity() + "\n" +
-                "Total Intelligence " + total.getIntelligence() + "\n" +
-                "Damage" + getDamage();
+                "Total Intelligence: " + total.getIntelligence() + "\n" +
+                "Damage " + getDamage();
      }
 
     public abstract int increaseDamageByAttribute(HeroAttribute totalAttributes);
