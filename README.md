@@ -2,7 +2,6 @@
 
 The application was created by Max Bowen alone.
 
-This project was created for the Norofff backend course. The project took roughly 40 hours to complete.
 
 ## Functionality
 
